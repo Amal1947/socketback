@@ -10,8 +10,8 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "*",
-    
+    origin: "https://socket-77e8qvvun-amals-projects-4475a49d.vercel.app/",
+
     methods: ["GET", "POST"],
   },
 });
